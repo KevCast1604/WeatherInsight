@@ -26,7 +26,8 @@ public class WeatherService {
     private String apiKey;
 
     // lista de ciudades a consultar (id o nombre)
-    private final List<String> cities = List.of("Lima", "Santiago", "Buenos Aires", "London");
+    private final List<String> cities = List.of("Lima", "Santiago", "Buenos Aires", "Quito",
+            "La Paz", "Bogota", "Montevideo", "Asuncion", "Brasilia");
 
     public WeatherService(WeatherObservationRepository weatherObservationRepository,
                           WeatherHistorialRepository weatherHistorialRepository) {

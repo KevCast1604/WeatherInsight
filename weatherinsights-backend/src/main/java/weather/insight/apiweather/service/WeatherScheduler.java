@@ -18,7 +18,8 @@ public class WeatherScheduler {
     private final RestTemplate restTemplate = new RestTemplate();
     private final String API_KEY = "5b5307ba67466ed633cafc0601378d59";
 
-    private final List<String> cities = List.of("Lima", "Santiago", "Buenos Aires", "London");
+    private final List<String> cities = List.of("Lima", "Santiago", "Buenos Aires", "Quito",
+            "La Paz", "Bogota", "Montevideo", "Asuncion", "Brasilia");
 
     public WeatherScheduler(WeatherService service) {
         this.service = service;
