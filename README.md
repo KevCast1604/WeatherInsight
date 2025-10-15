@@ -28,17 +28,17 @@ React Hooks for state and lifecycle management
 
 ## 🌍 Features
 
-✅ Real-time weather data (temperature, humidity, pressure, wind speed, etc.)
+- ✅ Real-time weather data (temperature, humidity, pressure, wind speed, etc.)
 
-✅ Auto-refresh every 10 minutes to ensure up-to-date information
+- ✅ Auto-refresh every 10 minutes to ensure up-to-date information
 
-✅ Modern and responsive design
+- ✅ Modern and responsive design
 
-✅ Interactive charts for better visual understanding
+- ✅ Interactive charts for better visual understanding
 
-✅ Country and city filters
+- ✅ Country and city filters
 
-✅ Weather history from different cities in different ranges (1 hour, 8 hours, 1 day, etc)
+- ✅ Weather history from different cities in different ranges (1 hour, 8 hours, 1 day, etc)
 
-✅ REST API layer built for scalability and integration
+- ✅ REST API layer built for scalability and integration
 
