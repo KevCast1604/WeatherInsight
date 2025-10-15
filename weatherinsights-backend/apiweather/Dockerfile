@@ -1,7 +1,15 @@
 # Etapa 1: Compilar el proyecto
 FROM maven:3.9.6-eclipse-temurin-21 AS builder
 WORKDIR /app
-COPY . .
+
+# Copiar solo el pom primero para descargar dependencias
+COPY pom.xml .
+RUN mvn dependency:go-offline -B
+
+# Copiar el resto del proyecto
+COPY src ./src
+
+# Compilar el proyecto sin tests
 RUN mvn clean package -DskipTests
 
 # Etapa 2: Ejecutar el JAR
